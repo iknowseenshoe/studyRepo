@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: store
+  datasource:
+    url: jdbc:postgresql://localhost:5432/store?createDatabaseIfNotExist=true
+    username: root
+    password: power123
+
+stripe:
+  apiUrl: https://api.stripe.com
+  enabled: true
+  timeout: 1000
+  supported-currencies: USD,EUR,GBP,PHP
+
+payment-gateway: paypal
+
+mail:
+  host: smtp.gmail.com
+  port: 6969
+
